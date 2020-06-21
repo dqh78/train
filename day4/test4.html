@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奥利给</title>
+    <style>
+        #header{
+            width:1200px;
+            height: 50px;
+            background-color: cornflowerblue;
+        }
+        #screen{
+           width: 1200px;
+           height: 500px;
+           position: relative;
+           background-color: teal;
+        }
+        #box1{
+            text-align: center;
+            width: 1200px;
+            margin-top: 25px;
+        }
+        #box1 #content{
+            width: 300px;
+            height:30px;
+           
+        }
+        #box1 #send{
+            border: 1px solid;
+            border-radius: 3px;
+            background-color: white;
+            width: 150px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        #box1 #clear{
+            border: 1px solid;
+            border-radius: 3px;
+            background-color:white;
+            width: 150px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+     <div id="header"></div>
+      <div id="screen">
+
+      </div>
+      <div id="box1">
+        <input type="text" placeholder="发送点什么吧" id="content">
+        <p>
+         <input type="button" id="send" value="发送">
+         <input type="button" id="clear" value="清屏">
+        </p>
+      </div>  
+      <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script> 
+      <script>
+          $(document).ready(function(){
+             $('#send').click(function(){
+                 var danmu = $('#content').val()
+                 if(danmu.length>0){
+                 $('#content').val('')
+                 }
+                 var ceratedanmu=$('<div>'+danmu+'</div>')
+                 var top = 400*Math.random()
+                 var left =1000*Math.random()
+                 var time =90000*Math.random()
+                 var daxiao = 100*Math.random()+10
+                 var color =Math.floor(Math.random()*256).toString(10);
+                 $(ceratedanmu).css({"top":top,"left":left+"px","position":"absolute","font-size":daxiao+"px","color":"#"+color})
+                 $('#screen').append(ceratedanmu)
+                 $(ceratedanmu).animate({left:$('#screen').width()-$(ceratedanmu).width()},time,function(){
+                        $(this).remove();
+                 })
+                $('#clear').click(function(){
+                    $('#screen').empty()
+
+                })
+                 
+             })
+ 
+
+
+
+
+
+          });
+      </script>
+</body>
+</html>
