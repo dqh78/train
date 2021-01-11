@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const Xhr = new XMLHttpRequest()
+        // Xhr.open('post',"https://www.fastmock.site/mock/b3fb1711049eb284f006b4d4f1e2664b/shop/api/shop")
+        // Xhr.responseType = 'json'
+        // // Xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        // Xhr.send("fname=Bill&lname=Gates");
+        // Xhr.onreadystatechange =function(){
+        //     if(Xhr.readyState === 4){
+        //         if (Xhr.status >=200 && Xhr.status<=300 ) {
+        //             console.log(Xhr.response);
+        //         }
+        //     }
+        // }
+
+        // const p = new Promise((resolve,reject)=>{
+        //     resolve(1)
+        // })
+        // p.then(resolve=>{
+        //     console.log(resolve);
+        // }).then(
+        //     resolve=>{
+        //         console.log(resolve);
+        //     },reject=>{
+        //         console.log(reject);
+        //     }
+        // )
+        // const p = new Promise((resolve,reject)=>{
+        //      return 1
+        //  })
+        //  console.log(p);
+        //  p.then(resolve=>{
+        //     console.log(resolve);
+        //  })
+
+        function foo() {
+         return Promise.resolve(1).then(() => undefined) 
+       }
+     console.log(foo());
+     console.log(Promise.resolve(1));
+    </script>
+</body>
+</html>
