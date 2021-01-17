@@ -1,0 +1,45 @@
+
+.hearcy{
+    float: left;
+    
+}
+.div3{
+    float: right;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.div2{
+    float: right;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+
+.cody{
+    background-color:#F5F0F2;
+    width: 1050px;
+    height: 800px;
+    margin-left: 20px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.fen{
+    margin-bottom: -25px;
+    margin-top: 20px;
+    font-size: large;
+}
+.button-left{
+   margin-left: 870px;
+   margin-bottom: 15px;
+}
+.cardone{
+   color: brown;
+    height: 400px;
+}
+.In{
+    width: 200px;
+    float: left;
+}
+.Ta{
+    margin-top: 20px;
+}

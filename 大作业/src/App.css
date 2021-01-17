@@ -1,0 +1,29 @@
+
+.left {
+    float: left;
+   
+}
+.body {
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 48px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.context{
+    float:left;
+}
+.box-top h1{
+    color:white;
+    text-align:center;
+    line-height:20px;
+}
+.box {
+    margin: 0 auto; /* login框剧中 */
+    margin-top: 200px; /* login框与顶部的距离 */
+    padding: 20px 50px; /* login框内部的距离(内部与输入框和按钮的距离) */
+    background-color: #00000090; /* login框背景颜色和透明度 */
+    width: 400px;
+    height: 300px;
+    border-radius: 10px; /* 圆角边 */
+    text-align: center; /* 框内所有内容剧中 */
+}

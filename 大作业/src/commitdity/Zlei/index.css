@@ -1,0 +1,39 @@
+.fenl{
+    width: 970px;
+    height: 600px;
+}
+.fbody{
+    background-color:#F5F0F2;
+    width: 1050px;
+    height: 800px;
+    margin-left: 20px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.fenmiao{
+  
+    width: 400px;
+    margin-top: 10px;
+}
+.fname{
+    width: 400px;
+    margin-top: 10px;
+    
+}
+.maio{
+    margin-top:20px;
+}
+.ant-tooltip-inner{
+     width: 100px;
+     height: 100px;
+     
+}
+.button-3{
+   float: left;
+    margin-left: 10px;
+}
+.button-2{
+    float: left;
+    margin-left: 400px;
+
+}    

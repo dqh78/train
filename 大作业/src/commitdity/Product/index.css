@@ -1,0 +1,57 @@
+.headere{
+    float: left;
+}
+.div3{
+    float: right;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.div2{
+    float: right;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.div1{
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.body{
+    background-color:#F5F0F2;
+    width: 1050px;
+    height: 800px;
+    margin-left: 20px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.shang{
+    margin-bottom: -25px;
+    margin-top: 20px;
+    font-size: large;
+}
+.card{
+     width: 970px;
+     height: 400px;
+}
+.biao{
+    margin-bottom: 20px;
+    width: 100px;
+    margin-left: 20px;
+}
+.biao-1{
+    margin-bottom: 20px;
+    width: 100px;
+    margin-left: 20px;
+}
+.biao-2{
+    margin-bottom: 20px;
+    width: 100px;
+    margin-left: 20px;
+}
+.search-1{
+  width: 200px;
+  margin-left: 250px;
+}
+
+

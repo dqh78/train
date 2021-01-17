@@ -1,0 +1,58 @@
+.p1{
+   
+}
+.xbody{
+    background-color:#F5F0F2;
+    width: 1050px;
+    height: 800px;
+    margin-left: 20px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.xhead{
+    float: left;
+}
+.div4{
+    float: right;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.div5{
+    float: right;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.div6{
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.xcard{
+    width: 970px;
+    height: 600px;
+}
+.mname{
+    width: 400px;
+    margin-top: 10px;
+    
+}
+.price{
+    width: 200px;
+    margin-top: 10px;
+}
+.yprice{
+    width: 200px;
+    margin-top: 10px;
+}
+.sku{
+    width: 430px;
+    margin-top: 10px;
+}
+.text{
+    width: 1000px;
+    height: 10px;
+}
+.button-1{
+   
+     margin-left: 400px;
+}
